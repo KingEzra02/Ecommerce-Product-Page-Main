@@ -8,7 +8,7 @@ body {
   font-family: "roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: hsl(30, 6%, 93%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 header > nav > .gap-btw-l-li {
@@ -16,7 +16,7 @@ header > nav > .gap-btw-l-li {
   align-items: center;
   padding: 1rem 2rem;
   gap: 55px;
-  background-color: hsl(30, 6%, 93%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 .gap-btw-l-li li {
@@ -46,7 +46,7 @@ header > nav > .gap-btw-c-p {
   align-items: center;
   padding: 1rem 2rem;
   gap: 55px;
-  background-color: hsl(30, 6%, 93%);
+  background-color:hsl(0, 0%, 100%);
 }
 
 header > nav > .gap-btw-c-p .profile img {
@@ -61,7 +61,7 @@ header > nav {
   width: 1000px;
   margin: auto;
   border-bottom: 1px solid hsl(227, 12%, 23%, 0.15);
-  background-color: hsl(30, 6%, 93%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 /* header > nav > ul > li {
@@ -191,4 +191,39 @@ main > .product-details > .quantity > button:hover  {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 
+}
+
+.quantity-btn {
+    width: 150px;
+    height: 40px;
+    background-color: hsl(30, 6%, 93%);
+    padding: 15px;
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    width: 53px;
+    height: 40px;
+    font-size: 1rem;
+    background: 0 0;
+    color: hsl(27, 89%, 51%);
+    cursor: pointer;
+}
+
+.qty-input {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(0, 0%, 0%);
+    border: none;
+    background-color: transparent;
 }
