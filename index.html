@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -54,11 +54,7 @@
     <main>
       <div class="product-container">
         <div class="product-image">
-          <img
-            src="./images/image-product-1.jpg"
-            alt="Product Image"
-            width="500px"
-          />
+          <img src="./images/image-product-1.jpg" alt="Product Image" />
         </div>
         <div class="product-thumbnail">
           <img src="./images/image-product-1-thumbnail.jpg" alt="" />
@@ -77,12 +73,13 @@
           the weather can offer.
         </p>
         <div class="price">
-          <span class="current-price"> $125.00 </span>
-          <span class="discount-percentage"> 50% </span>
-        </div>
-        <div class="original-price">
+          <div class="two-prices">
+            <span class="current-price"> $125.00 </span>
+            <span class="discount-percentage"> 50% </span>
+          </div>
           <span class="original-price-value"> $250.00 </span>
         </div>
+        <!-- <div class="original-price"></div> -->
 
         <div class="quantity">
           <div class="quantity-btn">
@@ -95,8 +92,9 @@
             </button>
           </div>
 
-          <button class="add-to-cart-btn"> <img src="./images/icon-cart.svg" alt=""> Add to cart </button>
-           
+          <button class="add-to-cart-btn">
+            <img src="./images/icon-cart.svg" alt="" /> Add to cart
+          </button>
         </div>
       </div>
     </main>
